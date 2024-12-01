@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>To Do List</title>
+  </head>
+  <body
+    style="
+      font-family: Arial, sans-serif;
+      background-color: #439cc24a;
+      margin: 0;
+    "
+  >
+    <div class="container">
+      <h1
+        style="
+          text-align: center;
+          color: brown;
+          font-size: 30px;
+          font-weight: 900;
+        "
+      >
+        To Do List
+      </h1>
+      <input type="text" id="taskInput" placeholder="ADD TASK" />
+      <input class="button" id="addTask" type="submit" value="Add Task" />
+      <ul id="taskList"></ul>
+    </div>
+
+    <!-- Script -->
+    <script src="./js/popper.min.js"></script>
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/main.js"></script>
+  </body>
+</html>
